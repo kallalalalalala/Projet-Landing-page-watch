@@ -1,0 +1,44 @@
+/*Bare de Navigation*/
+.navbar-text{
+    font-weight: bolder;
+    font-size: larger;
+}
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: larger;
+}
+.bg-image{
+    background-image: url('https://drscdn.500px.org/photo/17940619/q%3D90_m%3D2048/v2?sig=fcf4d8c852fc8ebdb4f670105c089f6fc2e488c00366a570e0c91c0722f0b926');
+    background-size: cover; /* Ajuste l'image pour couvrir tout le conteneur */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat; /* Évite que l'image se répète */
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    padding: 5rem; /* Padding de 5 rem pour correspondre à p-5 */
+
+}
+.titre1{
+    font-weight: bolder;
+}
+.logo {
+    max-width: 100px; /* Ajustez la taille des logos selon vos besoins */
+}
+.logo-container {
+    display: flex;
+    justify-content: space-around; /* Ajustez la distribution des logos */
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+}
+.image-container {
+    text-align: center; /* Centre le texte sous les images */
+}
+.image-container img {
+    max-width: 100%; /* Assure que les images s'ajustent à la taille des colonnes */
+    height: 200px; /* Garde les proportions des images */
+    border-radius: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    width: 100%;
+}
